@@ -3,7 +3,7 @@ const router = new express.Router()
 
 router.get('/', (req, res, next) => {
     res.status(200).send({
-        nome: 'Matheus',
+        codigoPessoa: '01',
         info: 'Minha primeira rota',
         versao: 1.0
     });
